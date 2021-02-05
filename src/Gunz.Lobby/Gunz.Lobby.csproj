@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<TargetPlatformIdentifier>windows</TargetPlatformIdentifier>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Gunz.Lobby.Common\Gunz.Lobby.Common.csproj" />
+	  <ProjectReference Include="..\Gunz.Lobby.Repositories\Gunz.Lobby.Repositories.csproj" />
+	  <ProjectReference Include="..\Gunz.Lobby.Views\Gunz.Lobby.Views.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Autofac" Version="6.1.0" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+	<TargetPlatformIdentifier>windows</TargetPlatformIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gunz.Lobby.Common\Gunz.Lobby.Common.csproj" />
+    <ProjectReference Include="..\Gunz.Lobby.Repositories\Gunz.Lobby.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
